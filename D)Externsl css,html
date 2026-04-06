@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title> External Css Example </title>
+
+    <link 
+        rel="icon"
+        type = "img/jpeg"
+        href="https://i.pinimg.com/originals/94/21/14/9421144c1de4cf39a26520903a8dfe69.jpg
+    " />
+    
+    <link 
+        rel="stylesheet"
+        type='text/css' 
+        href='./css/D_Externalcss.css' 
+    />
+</head>
+<body>
+   <h1>Welcome to Html world</h1>
+   <h2 id="css-content">Welcome to Css world</h2>
+</body>
+</html>
