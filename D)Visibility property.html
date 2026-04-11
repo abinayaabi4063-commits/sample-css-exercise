@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Visbility Property</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+.none {
+  display: none;
+}
 
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/D_visibiltyProperty.css'>
-
+.visible {
+  display: block;
+  background-color: tomato;
+  padding: 10px;
+  margin: 10px;
+}
+</style>
 </head>
 <body>
-    <h1> Visbility - Indian Flag design </h1>
 
-    <div class="container1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut placeat deserunt quisquam doloribus ipsam tenetur quia ad libero blanditiis explicabo iusto sunt dolores repellendus, minima neque consequatur eveniet laudantium.</p>
-    </div>
-      <div class="container2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut placeat deserunt quisquam doloribus ipsam tenetur quia ad libero blanditiis explicabo iusto sunt dolores repellendus, minima neque consequatur eveniet laudantium.</p>
-    </div>
+<h3>display: none</h3>
+<div class="none">நான் மறைஞ்சிருவேன் 😊</div>
+<div class="visible">நான் தெரிவேன் 😃</div>
 
-      <div class="container3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut placeat deserunt quisquam doloribus ipsam tenetur quia ad libero blanditiis explicabo iusto sunt dolores repellendus, minima neque consequatur eveniet laudantium.</p>
-    </div>
-
-
+<h3>என்ன நடக்கும்:</h3>
+<ul>
+  <li>`display: none` கொடுத்தா element மொத்தமா மறைஞ்சிடும்</li>
+  <li>அந்த space-ல வேற எந்த element-ம் வந்துடும்</li>
+  <li>`visibility: hidden` கொடுத்தா space-ல இருக்கும், ஆனா தெரியாது</li>
+</ul>
 
 </body>
 </html>
