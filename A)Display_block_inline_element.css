@@ -1,0 +1,6 @@
+.block {
+  background-color: tomato;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
