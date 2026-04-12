@@ -1,6 +1,7 @@
 body{
-   background-image: url(../clogo/OIP.webp);
+   background-image:url(/assert/OIP.webp) ;
     background-repeat: no-repeat;
-    background-position: centre;
+    background-position: center;
     background-attachment: fixed;
+    background-size: 1000px 500px;
 }
