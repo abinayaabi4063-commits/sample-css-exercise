@@ -1,4 +1,11 @@
 #para-1{
     border-width: 3px;
     border-style: solid;
+    color: blueviolet;
+}
+#para-2{
+    border:2px solid green;
+}
+#para-3{
+    border:2px solid blue;
 }
