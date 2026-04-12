@@ -1,0 +1,32 @@
+.container1{
+    background-color: brown;
+    color: black;
+    padding:25px;
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    position: relative;
+    z-index: 3;
+}
+.container2{
+    background-color: blue;
+    color: black;
+    padding: 25px;
+    text-align: center;
+    margin:10px;
+    width:100px;
+    position: relative;
+    bottom: 50px;
+    z-index:1;
+}
+.container3{
+    background-color: blueviolet;
+    color: black;
+    padding:25px;
+    text-align: center;
+    margin:10px;
+    width:100px;
+    position: relative;
+    bottom:50px ;
+    z-index:2;
+}
