@@ -1,0 +1,18 @@
+.parent-container{
+    background-color: brown;
+    color: black;
+    height:300px;
+    width:500px;
+    position:relative;
+    left:120px;
+}
+.child-container{
+    background-color: blueviolet;
+    color: black;
+    height:100px;
+    width:100px;
+    padding:2opx;
+    position:absolute;
+    left:120px;
+    top:25px;
+}
