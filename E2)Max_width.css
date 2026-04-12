@@ -1,0 +1,6 @@
+.container{
+    border:2px solid orangered;
+    margin:25px;
+    width:400px;
+    max-width: 200px;;
+}
