@@ -1,6 +1,28 @@
-.visible {
-  display: block;
-  background-color: tomato;
-  padding: 10px;
-  margin: 10px;
+.container{
+visibility:show;
+background-color: blueviolet;
+color: black;
+padding: 25px;
+margin-bottom: 25px;
+box-shadow: 10px 10px 12px green;
+}
+.container2{
+  visibility: hidden;
+  background-color: blue;
+  color: black;
+  margin-bottom: 25px;
+  padding: 25px;
+  box-shadow: 10px 10px 2px;
+}
+.container3{
+  visibility:show;
+  background-color: pink;
+  color: black;
+  margin-bottom: 25px;
+  padding: 25px;
+  box-shadow: 10px 10px 2px;
+}
+h1{
+  text-align: center;
+  text-shadow: 10px 10px 2px orange;
 }
