@@ -1,0 +1,13 @@
+[name]{
+    background-color: blueviolet;
+    color: black;
+}
+[type]{
+    color: rgb(15, 4, 4);
+    background-color: brown;
+}
+input[type="text"]{
+    background-color: aqua;
+    color: antiquewhite;
+    width: 600px;
+}
