@@ -1,0 +1,14 @@
+.product{
+    background-color: brown;
+    color: black;
+    margin:25px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 3px1px gray;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
