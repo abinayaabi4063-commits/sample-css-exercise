@@ -6,7 +6,6 @@
     text-align: center;
     width: 200px;
     height: 200px;
-    box-shadow: 2px 3px1px gray;
 }
 .container{
     display:grid;
