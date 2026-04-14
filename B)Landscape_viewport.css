@@ -1,0 +1,31 @@
+container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(130, 237, 130); 
+}
+.item {
+    margin : 20px;
+    padding : 25px;
+    background-color: rgb(19, 6, 6);
+    color:white;
+    text-align: center;
+    width: 200px;
+}
+@media (max-width:420px){
+    .container{
+        background-color: rgb(88, 8, 78);
+        flex-direction: column;
+    }
+}
+@media (orientation: landscape){
+    .container{
+        background-color: blueviolet;
+    }
+}
+@media (min-width:1024px) and (max-width:1604px){
+    .container{
+        background-color: rgb(73, 4, 82);
+    }
+}
