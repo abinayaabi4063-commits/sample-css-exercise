@@ -1,29 +1,107 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: box-border;
+}
+body {
+  font-family: Arial, sans-serif;
+}
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+  background-color: #ebdddd;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 30px;
 }
 .logo {
   font-size: 24px;
   font-weight: bold;
-  margin-left: 20px;
+  color: rgb(61, 6, 83);
 }
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-}
-nav li {
-  margin-right: 20px;
+  gap: 25px;
 }
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
+  font-size: 16px;
 }
 nav a:hover {
-  color: #ccc;
+  color: #4d0657;
+}
+.hero {
+  background-color: #4d1a1a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero button:hover {
+  background-color: #160b0b;
+}
+.menu {
+  padding: 150px 20px;
+  text-align: center;
+}
+.menu h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.card h3 {
+  margin: 15px;
+  font-size: 20px;
+}
+.card p {
+  margin: 0 15px 10px 15px;
+  color: #5f3535;
+}
+.price {
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #a81906;
+}
+footer {
+  background-color: #4d1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
 }
