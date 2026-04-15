@@ -1,0 +1,16 @@
+.container-item{
+    background-color: brown;
+    color: beige;
+    width:150px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    transition-property:width ;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+}
+.container-item:hover{
+    background-color: blue;
+    width: 500px;
+    
+}
