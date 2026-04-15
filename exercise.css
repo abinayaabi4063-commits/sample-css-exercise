@@ -1,0 +1,15 @@
+.product {
+    margin: 15px;
+    border: 10px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    width: 300px;
+    height: fit-content;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
