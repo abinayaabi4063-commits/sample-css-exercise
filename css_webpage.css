@@ -7,8 +7,8 @@ body {
   font-family: Arial, sans-serif;
 }
 header {
-  background-color: #ebdddd;
-  color: white;
+  background-color: #34073f;
+  color: rgb(29, 9, 9);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@ header {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: rgb(61, 6, 83);
+  color: rgb(12, 192, 247);
 }
 nav ul {
   display: flex;
