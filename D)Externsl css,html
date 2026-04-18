@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
-    <title> External Css Example </title>
-
+    <title> External Css</title>
     <link 
         rel="icon"
         type = "img/jpeg"
         href="https://i.pinimg.com/originals/94/21/14/9421144c1de4cf39a26520903a8dfe69.jpg
     " />
-    
     <link 
         rel="stylesheet"
         type='text/css' 
