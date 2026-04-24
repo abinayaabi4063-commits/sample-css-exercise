@@ -1,0 +1,36 @@
+.menu {
+  background-color: #66165b;
+  padding: 10px 0;
+}
+.menu a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.menu a:hover {
+  background-color: #424444;
+}
+body {
+    font-family: Arial, sans-serif;
+  margin: 0px;
+  padding:0px;
+  background-color: #f0f0f0;
+}
+.header {
+  background-color: #746666;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #f71da3;
+}
+.footer {
+  background-color: #746666;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  height: 100px;
+  margin-top: 30px;
+}
